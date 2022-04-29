@@ -1,4 +1,6 @@
+.intel_syntax noprefix
 .global _main
+
 _main:
-    mov w0, 42
+    mov rax, 42
     ret
